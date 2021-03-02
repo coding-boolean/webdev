@@ -53,14 +53,14 @@ CREATE TABLE IF NOT EXISTS `blood` (
 --
 
 INSERT INTO `blood` (`id`, `pic`, `fname`, `lname`, `prof`, `bday`, `lbirth`, `phone`, `mobile`, `email`, `locality`, `city`, `activity`, `groupage`, `alive/dead`) VALUES
-(21, '8359b3a99dcc02f245eeb29a3d4b9e0e.png', 'sara', 'azzi', 'student', '2000-08-07', 'sba', '05555555', '04444', 'sarai@email.com', 'Algeria', 'Sidi Bel Abess ', '  walking footing', 'O-', 'alive'),
+(21, '8359b3a99dcc02f245eeb29a3d4b9e0e.png', 'sara', 'sara', 'student', '2000-08-07', 'sba', '05555555', '04444', 'sarai@email.com', 'Algeria', 'Sidi Bel Abess ', '  walking footing', 'O-', 'alive'),
 (22, '76195203-blurred-silhouette-t-shirt-and-pin-up-swirl-hairstyle-vecto.jpg', 'insaf', 'rania', 'prof', '1999-05-17', 'sba', '086546', '046565', 'insaf@email.com', 'oran', 'sba', '  swimming football', 'O+', 'alive'),
-(23, 'images.png', 'maroua', 'wissem', 'student', '2000-01-04', 'sidi bel abbess', '054846433', '04554836', 'ikram@yahoo.fr', 'alger', 'oran', '  football', 'A+', 'alive'),
+(23, 'images.png', 'wissem', 'wissem', 'student', '2000-01-04', 'sidi bel abbess', '054846433', '04554836', 'ikram@yahoo.fr', 'alger', 'oran', '  football', 'A+', 'alive'),
 (24, 'depositphotos_114817672-stock-illustration-avatar-man-icon-businesspeople-design.jpg', 'anis', 'anis', 'bhdsh', '2004-12-12', 'oran', '065841589', '0454994', 'anis@email.com', 'alger', 'sba', '  footing swimming', 'A-', 'alive'),
-(36, '500_F_104013719_0RBp6tC9Q0ryP0bzgTqHGZWPLbmz2Cdt.jpg', 'reda', 'azzi', 'hgyujk', '2021-02-13', 'sba', '515515', '5151', 'reda@email.com', 'sba', 'Sidi Bel Abess', '   walking swimming football', 'O-', 'alive'),
+(36, '500_F_104013719_0RBp6tC9Q0ryP0bzgTqHGZWPLbmz2Cdt.jpg', 'reda', 'reda', 'hgyujk', '2021-02-13', 'sba', '515515', '5151', 'reda@email.com', 'sba', 'Sidi Bel Abess', '   walking swimming football', 'O-', 'alive'),
 (27, '500_F_104013719_0RBp6tC9Q0ryP0bzgTqHGZWPLbmz2Cdt.jpg', 'yanis', 'salim', 'civil-engeer', '1989-01-27', 'new york', '0958588', '0748856', 'yanis@email.com', 'new york', 'LA', '  walking swimming bascketball', 'AB+', 'alive'),
 (28, 'flat,1000x1000,075,f.u3.jpg', 'narimen', 'br', 'engeer', '1988-08-19', 'blida', '05498485', '0458485', 'narimen@live.fr', 'mostaganem', 'sba', '  walking', 'AB-', 'alive'),
-(35, 'girl-with-tails-icon-flat-single-avatarpeaople-vector-14449860.jpg', 'maroua', 'chanbi', 'student', '2020-09-16', 'sba', '05555555', '046565', 'macha@email.com', 'sba', 'Sidi Bel Abess', '  footing swimming football', 'O+', 'alive');
+(35, 'girl-with-tails-icon-flat-single-avatarpeaople-vector-14449860.jpg', 'maroua', 'maroua', 'student', '2020-09-16', 'sba', '05555555', '046565', 'macha@email.com', 'sba', 'Sidi Bel Abess', '  footing swimming football', 'O+', 'alive');
 
 -- --------------------------------------------------------
 
