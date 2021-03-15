@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+    <link rel="stylesheet" href="tpihm.css" />
+    
+
+    
+     </head>
+  <body>
+<form class="form" href="#btn" action="tpihm2.html"  >
+ 
+   
+<br><br>  <div class="maingrid">
+          <div class="formitem">
+            <div class="pdpr"><input name="photo" type="file" class="pdp" accept="image/*"></div>
+            <div class="logo"><img src="" ></div>
+            <div class="sau"><pre><h5>EMBASSY OF ALGEIRA
+            CONSULAR SECTION</h5></pre></div>
+          </div>
+          <div class="form-item">
+            <div class="item">
+            <label for="firstname" class="form-label">First name</label>
+            <input type="text" class="form-input" id="myText" name="firstname"  placeholder="non" onkeypress="char(event); return tabE(this,event)" required>
+            </div>
+
+            <div class="item">
+            <label for="lastname" class="form-label">Last name</label>
+            <input type="text" class="form-input"  id="myText"
+            name="lastname" id="lastname" placeholder="prénom" onkeypress="char(event); return tabE(this,event)" required>
+            </div>
+          </div>
+
+          <div class="form-item">
+            <div class="item">
+            <label for="date" class="form-label">Date of birth</label>
+            <input type="date" class="form-input " id="myText"
+            name="date" id="date" placeholder="Enter your birthdate" onkeypress="return tabE(this,event)" required>
+            </div>
+
+            <div class="item">
+            <label for="adr" class="form-label">Adress</label>
+            <input type="text" class="form-input " name="adr" id="myText" placeholder="your adress" onkeypress="return tabE(this,event)" required>
+            </div>
+          </div>
+          
+          <div class="form-item">
+            <div class="item">
+            <label for="phonenumber" class="form-label">Phone number</label>
+            <input type="text" class="form-input " name="phonenumber" id="phonenumber" placeholder="00-00-00-00-00" onkeypress ="num(event); return tabE(this,event)" required >
+            </div>
+
+
+            <div class="item">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-input " name="email" id="myText" placeholder="example@gmail.com" onkeypress="return tabE(this,event)" required>
+          </div>
+          </div>
+          <div class="item" style="height:0px;"><span><h4 style="margin-right:200px;">your gender:</span></h4><br></div>
+          <div class="gend">
+            
+            <input style="width:20px;" type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" style="width:20px;" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" style="width:20px;" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+          </div>
+          
+          
+
+    <br><br>
+       <div class="form-b"  id="btn">
+         <button class="form-button" onclick="myFunction()"   type="submit">Continue</button> 
+       </div>
+       
+         
+
+      
+    </form>
+    <script>function tabE(obj,e){ 
+      var e=(typeof event!='undefined')?window.event:e; 
+      if(e.keyCode==13){ 
+        var ele = document.forms[0].elements; 
+        for(var i=0;i<ele.length;i++){ 
+          var q=(i==ele.length-1)?0:i+1;
+          if(obj==ele[i]){ele[q].focus();break} 
+        } 
+     return false; 
+      } 
+     } 
+  function num(evt){
+      var s = String.fromCharCode(evt.which);
+      if(!(/[0-9]/.test(s))){
+          evt.preventDefault();
+      }
+  }
+  function char(evt){
+      var z = String.fromCharCode(evt.which);
+      if(!(/[a-zA-Z ]/.test(z))){
+          evt.preventDefault();
+      }
+  }</script>
+ 
+  </body>
+</html>
