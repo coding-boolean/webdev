@@ -1,0 +1,108 @@
+.form * {
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin-left: 1cm;
+}
+table{border:2px solid green;
+margin-left: 300px;}
+.formitem{display:inline-grid;
+grid-template-columns:auto auto auto;
+height:250px;
+padding-bottom:20px;}
+img{height:150px;
+  width:180px;}
+.maingrid{display:grid;}
+h5,h4{float:right;
+padding-right:55px;
+font-size:15px;}
+.logo{height:50px;
+width:50px;}
+input{height:50px;
+width:200px;
+border:2px solid black;}
+.pdp {
+  height:180px;
+  width:200px;
+border:2px solid green;
+
+
+}
+
+.form-item{display:inline-grid;
+  grid-template-columns: auto auto;
+  grid-column-gap:0px;
+  grid-row-gap:10px;
+  
+  padding-left:40px;
+}
+.item{padding-bottom:80px;
+
+width:500px;}
+.form-item > * {
+  align-self: flex-start;
+}
+.form-label {
+  font-weight: 600;
+  padding: 10px 0;
+  color:rgb(37, 59, 52)
+}
+
+::-webkit-file-upload-button {
+  color: white;
+  background: #206a5d;
+  padding: 10px;
+  border: none;
+  
+  outline: none;
+}
+.form-input {
+  -webkit-appearance: none;
+  width: 100%;
+  max-width: 425px;
+  min-height: calc(0.9em + (0.8em + 2) + 0.6em);
+  padding: 0.8em;
+  font-size: 0.8em;
+  border: 2px solid rgb(13, 138, 23);
+  border-radius: 4px;
+  background: rgba(196, 193, 197, 0.13);;
+  transition: background 0.25s, border-color 0.25s, color 0.25s;
+}
+.form-input:focus {
+  background: rgba(196, 193, 197, 0.178);
+  border:none;
+  outline:none;
+  border:2px solid rgb(29, 228, 29);
+  
+  
+}
+input{border-color:rgb(13, 138, 23);}
+.form-input::placeholder {
+  font-size: 15px;
+  color: #bbb;
+}
+.form-input::placeholder::focus{font-size: 50px;}
+
+.form-button {
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 10px 16px;
+  margin: 10px 0;
+  color: #ffffff;
+  background: rgb(13, 138, 23);
+  border: 2px solid rgb(13, 138, 23);
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  width:300px;
+
+  
+}
+.form-b{padding-left:470px;
+height:50px;
+width:500px;
+margin-bottom:50px;}
+.form-button::active {
+  background: rgb(38, 216, 82);
+}
+body{background-color: rgba(196, 193, 197, 0.445);}
+.gend{padding-left:100px;}
