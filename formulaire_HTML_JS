@@ -21,13 +21,13 @@
           <div class="form-item">
             <div class="item">
             <label for="firstname" class="form-label">First name</label>
-            <input type="text" class="form-input" id="myText" name="firstname"  placeholder="non" onkeypress="char(event); return tabE(this,event)" required>
+            <input type="text" class="form-input" id="myText" name="firstname"  placeholder="first name" onkeypress="char(event); return tabE(this,event)" required>
             </div>
 
             <div class="item">
             <label for="lastname" class="form-label">Last name</label>
             <input type="text" class="form-input"  id="myText"
-            name="lastname" id="lastname" placeholder="prénom" onkeypress="char(event); return tabE(this,event)" required>
+            name="lastname" id="lastname" placeholder="last name" onkeypress="char(event); return tabE(this,event)" required>
             </div>
           </div>
 
